@@ -1,0 +1,6 @@
+escenario,nombre,T_max_C,T_media_C,PUE_medio,PUE_max,E_IT_kWh,E_cool_kWh,E_tot_kWh,pct_t_sobre_27C,pct_t_sobre_32C,COP_medio,residuo_rel
+E1,Carga base · clima templado · aire,29.70,27.89,1.297,1.355,284.1,60.0,368.5,72.1,0.0,4.00,4.40e-08
+E2,Pico de tokens · clima templado · aire,31.50,30.16,1.273,1.316,434.5,94.0,552.9,98.9,0.0,4.00,7.19e-08
+E3,Pico de tokens · clima cálido · aire,32.50,31.24,1.390,1.449,434.5,145.1,604.1,99.2,34.3,3.04,7.25e-09
+E4,Pico de tokens · clima cálido · líquida D2C,32.50,31.24,1.213,1.233,434.5,68.1,527.1,99.2,34.3,6.40,7.25e-09
+E5,Calibración óptima: D2C + Kp=6000 W/K, T_set=22 °C,25.82,25.29,1.227,1.242,434.5,74.2,533.1,0.0,0.0,6.40,3.00e-07

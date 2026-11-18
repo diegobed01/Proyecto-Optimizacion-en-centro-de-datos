@@ -1,0 +1,15 @@
+Material complementario - Modelado termico de un centro de datos (DeepSeek)
+
+1) Instalar dependencias (Python 3.9 o superior):
+       pip install -r requirements.txt
+2) Reproducir todas las figuras, tablas y resultados.json del articulo:
+       python analisis.py          (tarda ~30 s; escribe en figuras/ y tablas/)
+3) Lanzar el simulador interactivo:
+       streamlit run simulador_streamlit.py
+   En el panel lateral, "Escenario de partida" carga E1-E5 (Tabla 4).
+
+Archivos:
+  modelo.py               EDO, solucion analitica, Euler y RK4 programados a mano
+  analisis.py             estudio de errores, escenarios E1-E5 y figuras
+  simulador_streamlit.py  interfaz interactiva
+  resultados.json, tablas/*.csv, figuras/*.png  salidas de analisis.py
